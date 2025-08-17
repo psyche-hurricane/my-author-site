@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kameryn Key - Author Platform</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; background:#0f172a; color:#f1f5f9; }
+    header, footer { background:#1e293b; padding:1rem; text-align:center; }
+    nav a { margin:0 0.5rem; color:#f1f5f9; text-decoration:none; }
+    section { padding:2rem; max-width:900px; margin:auto; }
+    .card { background:#1e293b; padding:1rem; border-radius:12px; margin-bottom:1rem; }
+    h1, h2, h3 { color:#e0e7ff; }
+    .pill { display:inline-block; padding:0.25rem 0.5rem; border:1px solid #334155; border-radius:9999px; font-size:0.8rem; margin:0.2rem; color:#cbd5e1; }
+    a.button { display:inline-block; margin-top:0.5rem; padding:0.5rem 1rem; background:#6366f1; color:white; border-radius:8px; text-decoration:none; }
+    input, textarea { width:100%; padding:0.5rem; margin-top:0.3rem; border-radius:8px; border:1px solid #334155; background:#1e293b; color:#f1f5f9; }
+    button { padding:0.5rem 1rem; border:none; border-radius:8px; background:#6366f1; color:white; cursor:pointer; margin-top:0.5rem; }
+    .social-icons a { margin:0 0.5rem; color:#f1f5f9; text-decoration:none; font-size:1.5rem; }
+  </style>
+</head>
+<body>
+<header>
+  <h1>Kameryn Key</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#wip">Works in Progress</a>
+    <a href="#blog">Blog</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+<main>
+  <section id="about">
+    <h2>About the Author</h2>
+    <div class="card">
+      <p>Kameryn Key is a fiction writer drawn to the mysteries of identity, memory, and what it means to be human when the world shifts beneath your feet. Stories blend speculative and literary elements into immersive narratives.</p>
+      <div class="social-icons">
+        <a href="https://twitter.com/" target="_blank">Twitter</a>
+        <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+        <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="wip">
+    <h2>Works in Progress</h2>
+    <div class="card">
+      <h3>Shadowrise Institute</h3>
+      <p>Victoria wakes in a locked classroom with no memory. She must navigate the Shadowrise Institute—a place where reality bends—to uncover her past and choose her future.</p>
+      <div>
+        <span class="pill">Psychological Mystery</span>
+        <span class="pill">Speculative</span>
+        <span class="pill">Character-Driven</span>
+      </div>
+      <a href="#contact" class="button">Inquire About Updates</a>
+    </div>
+    <div class="card">
+      <h3>Who Are We Really?</h3>
+      <p>An essayistic novella on masks, performance, and the hunger to be known, intercut with a sibling duo navigating a city of mirrors.</p>
+      <div>
+        <span class="pill">Identity & Performance</span>
+        <span class="pill">Braided Structure</span>
+        <span class="pill">Lyrical</span>
+      </div>
+      <a href="#contact" class="button">Inquire About Updates</a>
+    </div>
+  </section>
+
+  <section id="blog">
+    <h2>Blog</h2>
+    <div class="card">
+      <h3>Writing Liminal Spaces Without Losing Your Reader</h3>
+      <p>Tips for making eerie, in-between places feel tangible, anchored by sensory detail and character desire.</p>
+      <a href="#contact" class="button">Discuss This Post</a>
+    </div>
+    <div class="card">
+      <h3>Character as Compass: Desire-Driven Scenes</h3>
+      <p>Use unmet desire to decide what happens next, plus a scene checklist for writers.</p>
+      <a href="#contact" class="button">Discuss This Post</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="card">
+      <form onsubmit="alert('This is a demo contact form.'); return false;">
+        <label>Name</label>
+        <input type="text" placeholder="Your Name" required>
+        <label>Email</label>
+        <input type="email" placeholder="you@example.com" required>
+        <label>Message</label>
+        <textarea rows="5" placeholder="Your message..." required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+</main>
+<footer>
+  <p>&copy; 2025 Kameryn Key · All rights reserved.</p>
+</footer>
+</body>
+</html>
